@@ -416,7 +416,7 @@
     <value>检查更新</value>
   </data>
   <data name="menuClose" xml:space="preserve">
-    <value>关闭</value>
+    <value>关闭111</value>
   </data>
   <data name="menuExit" xml:space="preserve">
     <value>退出</value>
@@ -1025,7 +1025,7 @@
     <value>等待测试中（按ESC终止）...</value>
   </data>
   <data name="TipDisplayLog" xml:space="preserve">
-    <value>当有异常断流时请关闭</value>
+    <value>当有异常断流时请关闭111</value>
   </data>
   <data name="MsgSkipSubscriptionUpdate" xml:space="preserve">
     <value>未启用更新，跳过此订阅</value>
@@ -1202,10 +1202,10 @@
     <value>当前连接</value>
   </data>
   <data name="menuConnectionClose" xml:space="preserve">
-    <value>关闭连接</value>
+    <value>关闭111连接</value>
   </data>
   <data name="menuConnectionCloseAll" xml:space="preserve">
-    <value>关闭所有连接</value>
+    <value>关闭111所有连接</value>
   </data>
   <data name="TbProxies" xml:space="preserve">
     <value>当前代理</value>
@@ -1379,7 +1379,7 @@
     <value>XHTTP Extra 原始 JSON，格式： { XHTTPObject }</value>
   </data>
   <data name="TbSettingsHide2TrayWhenClose" xml:space="preserve">
-    <value>关闭窗口时隐藏至托盘</value>
+    <value>关闭111窗口时隐藏至托盘</value>
   </data>
   <data name="TbSettingsSpeedTestPageSize" xml:space="preserve">
     <value>测速时自动分批的每批数量（最大1000）</value>
