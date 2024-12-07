@@ -15,7 +15,8 @@ namespace v2rayN.Views
 {
     public partial class MainWindow
     {
-        public MainWindow()
+
+        public void ChangeTitle(string title="v2rayN1111111111")   
         {
              this.Title = "v2rayN1111111111111111";
 
