@@ -38,7 +38,8 @@ namespace v2rayN.Views
         {
             public Webapi(MainWindow mainWindow)
             {
-                mainWindow.UpdateHandler(false, "333333333333");
+                // mainWindow.UpdateHandler(false, "333333333333");
+                mainWindow. Title = "343241241";
             }
         }
     }
