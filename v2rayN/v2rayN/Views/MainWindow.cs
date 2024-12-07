@@ -17,7 +17,7 @@ namespace v2rayN.Views
     {
         public MainWindow()
         {
-            //  this.Title = "v2rayN1111111111111111";
+             this.Title = "v2rayN1111111111111111";
 
         }
     }
