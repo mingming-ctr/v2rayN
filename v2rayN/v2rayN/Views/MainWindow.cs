@@ -21,7 +21,6 @@ namespace v2rayN.Views
         {
             this.Title = "v2rayN1111111111111111";
             UpdateHandler(false, "ChangeTitle22222222222222");
-
         }
 
 
@@ -39,11 +38,10 @@ namespace v2rayN.Views
         {
             public Webapi(MainWindow mainWindow)
             {
-               mainWindow.UpdateHandler(false, "333333333333");
+                mainWindow.UpdateHandler(false, "333333333333");
             }
         }
     }
 
 
-}
 }
