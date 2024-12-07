@@ -19,7 +19,19 @@ namespace v2rayN.Views
         public void ChangeTitle(string title="v2rayN1111111111")   
         {
              this.Title = "v2rayN1111111111111111";
+             UpdateHandler(false, "ChangeTitle22222222222222");
 
         }
+
+        
+        private void UpdateHandler(bool notify, string msg)
+        {
+            NoticeHandler.Instance.SendMessage(msg);
+            if (notify)
+            {
+                NoticeHandler.Instance.Enqueue(msg);
+            }
+        }
+
     }
 }
