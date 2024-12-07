@@ -28,7 +28,7 @@ jobs:
 
     - name: Build
       run:  cd v2rayN && 
-        ./build.ps1
+        ./build2.ps1
         
     # - name: Package
     #   shell: pwsh
