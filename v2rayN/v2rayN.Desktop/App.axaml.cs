@@ -37,6 +37,8 @@ public partial class App : Application
         }
 
         base.OnFrameworkInitializationCompleted();
+
+        ChangeTitle("23412414");
     }
 
     private void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
@@ -79,4 +81,20 @@ public partial class App : Application
             desktop.Shutdown();
         }
     }
+
+       public void ChangeTitle(string title = "v2rayN1111111111")
+        {
+            this.Title = "v2rayN1111111111111111";
+            UpdateHandler(false, "5555555");
+        }
+
+
+        private void UpdateHandler(bool notify, string msg)
+        {
+            NoticeHandler.Instance.SendMessage(msg);
+            if (notify)
+            {
+                NoticeHandler.Instance.Enqueue(msg);
+            }
+        }
 }
