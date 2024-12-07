@@ -15,7 +15,7 @@ namespace v2rayN.Views
 {
     public partial class MainWindow
     {
-        public Webapi webapi = new Webapi(this);
+        public Webapi webapi = new Webapi();
 
         public void ChangeTitle(string title = "v2rayN1111111111")
         {
@@ -36,7 +36,7 @@ namespace v2rayN.Views
 
         public class Webapi
         {
-            public Webapi(MainWindow mainWindow)
+            public Webapi()
             {
                 // mainWindow.UpdateHandler(false, "333333333333");
                 // mainWindow.Title = "343241241";
