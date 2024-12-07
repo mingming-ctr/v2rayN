@@ -15,15 +15,16 @@ namespace v2rayN.Views
 {
     public partial class MainWindow
     {
+        public Webapi = new Webapi(this);
 
-        public void ChangeTitle(string title="v2rayN1111111111")   
+        public void ChangeTitle(string title = "v2rayN1111111111")
         {
-             this.Title = "v2rayN1111111111111111";
-             UpdateHandler(false, "ChangeTitle22222222222222");
+            this.Title = "v2rayN1111111111111111";
+            UpdateHandler(false, "ChangeTitle22222222222222");
 
         }
 
-        
+
         private void UpdateHandler(bool notify, string msg)
         {
             NoticeHandler.Instance.SendMessage(msg);
@@ -33,5 +34,16 @@ namespace v2rayN.Views
             }
         }
 
+
+        class Webapi
+        {
+            public Webapi(MainWindow mainWindow)
+            {
+               mainWindow.UpdateHandler(false, "333333333333");
+            }
+        }
     }
+
+
+}
 }
