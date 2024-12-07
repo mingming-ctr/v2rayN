@@ -34,7 +34,7 @@ namespace v2rayN.Views
         }
 
 
-        class Webapi
+        public class Webapi
         {
             public Webapi(MainWindow mainWindow)
             {
