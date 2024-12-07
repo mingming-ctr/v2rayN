@@ -15,10 +15,10 @@ namespace v2rayN.Views
 {
     public partial class MainWindow
     {
-        public MainWindow()
-        {
-             this.Title = "v2rayN1111111111111111";
+        // public MainWindow()
+        // {
+        //      this.Title = "v2rayN1111111111111111";
 
-        }
+        // }
     }
 }
