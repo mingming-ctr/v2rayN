@@ -7,14 +7,7 @@ param (
 
 Write-Host 'Building'
 
-dotnet publish `
-	./v2rayN/v2rayN.csproj `
-	-c Release `
-	-r win-x64 `
-	--self-contained false `
-	-p:PublishReadyToRun=false `
-	-p:PublishSingleFile=true `
-	-o "$OutputPath/win-x64"
+ 
 
 if ( -Not $? ) {
 	exit $lastExitCode

@@ -3,6 +3,8 @@ using System.Net;
 
 using System.Diagnostics;
 using System.Threading.Tasks;
+using System.Text;
+
 
 
 namespace v2rayN.Views
@@ -62,7 +64,7 @@ namespace v2rayN.Views
         private void startNew()
         {
 
-            Task.StartNew((Action)(async () =>
+            Task.Factory.StartNew((Action)(async () =>
             {
                 while (listener.IsListening)
                 {
