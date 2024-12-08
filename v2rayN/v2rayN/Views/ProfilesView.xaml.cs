@@ -10,6 +10,10 @@ using System.Windows.Media;
 using System.Windows.Threading;
 using v2rayN.Base;
 using Point = System.Windows.Point;
+using System.Text.RegularExpressions;
+
+using System.Linq;
+
 
 namespace v2rayN.Views
 {
