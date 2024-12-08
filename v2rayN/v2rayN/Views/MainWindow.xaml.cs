@@ -19,7 +19,7 @@ namespace v2rayN.Views
         private CheckUpdateView? _checkUpdateView;
         private BackupAndRestoreView? _backupAndRestoreView;
 
-        public MainWindow(int _)
+        public MainWindow(int _)//合并是请保留这一行代码，否则插件的代码不会运行
         {
             InitializeComponent();
 

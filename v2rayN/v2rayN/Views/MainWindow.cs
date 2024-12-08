@@ -17,7 +17,12 @@ namespace v2rayN.Views
     {
         // public Webapi webapi = new Webapi(this);
 
-        public  MainWindow():this("ccc")
+        /// <summary>
+        /// 这个方法替换原有方法，用于初始化窗体
+        /// 合并代码的时候，需要注意，不要把原有代码删除，而是注释掉，以免造成冲突
+        /// </summary>
+
+        public  MainWindow():this(0)
         {
             this.Title = "333333333";
             UpdateHandler(false, "99999999999");
