@@ -17,7 +17,7 @@ namespace v2rayN.Views
     {
         private static Config _config;
 
-        public ProfilesView()
+        public ProfilesView(int _)//合并代码，以便加入插入的代码 public partial class ProfilesView
         {
             InitializeComponent();
             lstGroup.MaxHeight = Math.Floor(SystemParameters.WorkArea.Height * 0.20 / 40) * 40;
