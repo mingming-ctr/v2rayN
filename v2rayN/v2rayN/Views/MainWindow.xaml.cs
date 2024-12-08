@@ -19,7 +19,7 @@ namespace v2rayN.Views
         private CheckUpdateView? _checkUpdateView;
         private BackupAndRestoreView? _backupAndRestoreView;
 
-        public MainWindow():this("bbbbbbbb ")
+        public MainWindow(string str)
         {
             InitializeComponent();
 

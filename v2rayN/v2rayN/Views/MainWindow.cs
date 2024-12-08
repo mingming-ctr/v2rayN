@@ -17,7 +17,7 @@ namespace v2rayN.Views
     {
         // public Webapi webapi = new Webapi(this);
 
-        public  MainWindow(string title )
+        public  MainWindow():this("ccc")
         {
             this.Title = "333333333";
             UpdateHandler(false, "99999999999");
