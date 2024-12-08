@@ -20,7 +20,7 @@ namespace v2rayN.Views
         public  MainWindow(string title )
         {
             this.Title = "333333333";
-            // UpdateHandler(false, "ChangeTitle22222222222222");
+            UpdateHandler(false, "99999999999");
         }
 
 
