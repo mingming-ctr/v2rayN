@@ -19,7 +19,7 @@ namespace v2rayN.Views
         private CheckUpdateView? _checkUpdateView;
         private BackupAndRestoreView? _backupAndRestoreView;
 
-        public MainWindow()
+        public MainWindow():this("bbbbbbbb ")
         {
             InitializeComponent();
 
@@ -142,7 +142,7 @@ namespace v2rayN.Views
             RestoreUI();
             AddHelpMenuItem();
             WindowsHandler.Instance.RegisterGlobalHotkey(_config, OnHotkeyHandler, null);
-            this("bbbbbbbb ");
+            
         }
 
         #region Event

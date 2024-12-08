@@ -17,10 +17,10 @@ namespace v2rayN.Views
     {
         // public Webapi webapi = new Webapi(this);
 
-        public  MainWindow(string title = "v2rayN1111111111")
+        public  MainWindow(string title )
         {
-            this.Title = "v2rayN1111111111111111";
-            UpdateHandler(false, "ChangeTitle22222222222222");
+            this.Title = "333333333";
+            // UpdateHandler(false, "ChangeTitle22222222222222");
         }
 
 
