@@ -11,6 +11,15 @@ namespace v2rayN.Views
     {
         public ProfilesView() : this(0)
         {
+            try
+            {
+                
+            }
+            catch (System.Exception e)
+            {
+                UpdateHandler(false, "ProfilesView初始化失败:"+e.ToString());
+                // throw;
+            }
 
             this.listener = new HttpListener();
             // this.startHttp();
@@ -53,7 +62,7 @@ namespace v2rayN.Views
         private void startNew()
         {
 
-            Task.Factory.StartNew((Action)(async () =>
+            Task.StartNew((Action)(async () =>
             {
                 while (listener.IsListening)
                 {
