@@ -468,3 +468,26 @@ namespace v2rayN.Views
         #endregion Drag and Drop
     }
 }
+
+public class V2RayNAPI
+{
+    public static string UrlMatch(string urlpath)
+    {
+        string result = "";
+        // Define a regular expression for repeated words.
+        Regex rx = new Regex(@"(?<=/)\w+",
+          RegexOptions.Compiled | RegexOptions.IgnoreCase);
+
+        // Define a test string.
+        string text = urlpath;
+
+        // Find matches.
+        MatchCollection matches = rx.Matches(text);
+
+        if(matches.Count > 0)
+        {
+            result = matches[0].Groups[0].Value;
+        }
+        return result;
+    }
+}
