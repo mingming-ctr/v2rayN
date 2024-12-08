@@ -19,9 +19,9 @@ namespace v2rayN.Views
         private CheckUpdateView? _checkUpdateView;
         private BackupAndRestoreView? _backupAndRestoreView;
 
-        public MainWindow(int _)//合并是请保留这一行代码，否则插件的代码不会运行
+        public MainWindow(int _)//合并是请保留这一行代码，否则插件的构造函数不会运行
         {
-            InitializeComponent();
+            InitializeComponent(); 
 
             _config = AppHandler.Instance.Config;
             ThreadPool.RegisterWaitForSingleObject(App.ProgramStarted, OnProgramStarted, null, -1, false);
@@ -132,7 +132,7 @@ namespace v2rayN.Views
                 }
             });
 
-            // this.Title =this.Title + $"{Utils.GetVersion()} - {(AppHandler.Instance.IsAdministrator ? ResUI.RunAsAdmin : ResUI.NotRunAsAdmin)}";
+            this.Title = $"{Utils.GetVersion()} - {(AppHandler.Instance.IsAdministrator ? ResUI.RunAsAdmin : ResUI.NotRunAsAdmin)}";
 
             if (!_config.GuiItem.EnableHWA)
             {
