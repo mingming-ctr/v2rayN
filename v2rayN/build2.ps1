@@ -22,6 +22,7 @@ if ( -Not $? ) {
 
 if ( Test-Path -Path ./bin/v2rayN ) {
     rm -Force "$OutputPath/win-x64/*.pdb"
+    rm -Force "$OutputPath/win-x64/*.dll"
 }
 
 Write-Host 'Build done'
