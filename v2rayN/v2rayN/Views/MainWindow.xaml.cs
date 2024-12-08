@@ -132,7 +132,7 @@ namespace v2rayN.Views
                 }
             });
 
-            this.Title =this.Title + $"{Utils.GetVersion()} - {(AppHandler.Instance.IsAdministrator ? ResUI.RunAsAdmin : ResUI.NotRunAsAdmin)}";
+            // this.Title =this.Title + $"{Utils.GetVersion()} - {(AppHandler.Instance.IsAdministrator ? ResUI.RunAsAdmin : ResUI.NotRunAsAdmin)}";
 
             if (!_config.GuiItem.EnableHWA)
             {
