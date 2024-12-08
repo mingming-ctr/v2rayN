@@ -142,7 +142,7 @@ namespace v2rayN.Views
             RestoreUI();
             AddHelpMenuItem();
             WindowsHandler.Instance.RegisterGlobalHotkey(_config, OnHotkeyHandler, null);
-            this.ChangeTitle("bbbbbbbb ");
+            this("bbbbbbbb ");
         }
 
         #region Event
